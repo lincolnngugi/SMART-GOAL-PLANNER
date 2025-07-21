@@ -1,0 +1,25 @@
+
+.planner-container {
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+form, .goal-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+
+input, select, button {
+  margin: 0.5rem;
+  padding: 0.4rem;
+}
+
+progress {
+  width: 100%;
+}
+
+.status-warning { color: orange; }
+.status-complete { color: green; }
+.status-overdue { color: red; }
